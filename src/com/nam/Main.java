@@ -17,36 +17,7 @@ public class Main {
 
         boolean mBoolean;
 
-        int lightspeed;
-        long days;
-        long seconds;
-        long distance;
 
-        boolean b;
-
-        b = false;
-        System.out.println("b = " + b);
-
-        b = true;
-        System.out.println("b = " + b);
-
-        if (b)
-        {
-            System.out.println("true");
-        }
-
-        b = !b;
-
-        if (!b)
-        {
-            System.out.println("false");
-        }
-
-        System.out.println("Wtf " + (5 > 1));
-
-        int x = 123_456_789_0;
-
-        System.out.println("X = " + x);
 
     }
 }
