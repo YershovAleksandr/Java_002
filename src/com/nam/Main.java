@@ -17,24 +17,20 @@ public class Main {
 
         boolean mBoolean;
 
-        int m[];
 
-        m = new int[42];
+        int twoD[][] = new int[4][5];
 
-        System.out.println("X = " + m);
-
-        System.out.println("X = " + m);
-
-        for (int i = 0; i < 42; i++)
+        for (int i = 0; i < 4; i++)
         {
-            System.out.print("X[" + i + "] = " + m[i]);
+            for (int j = 0; j < 5; j++)
+            {
+                twoD[i][j] = i * 10 + j;
+
+                System.out.print(" " + twoD[i][j]);
+            }
+            System.out.println();
         }
 
-        int nn[] = {4,8,15,16,23,42};
-
-        System.out.println("=");
-        for (int i = 0; i < 6; i++)
-            System.out.print(" " + nn[i]);
 
     }
 }
