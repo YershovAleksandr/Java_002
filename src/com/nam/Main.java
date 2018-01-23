@@ -18,13 +18,17 @@ public class Main {
         boolean mBoolean;
 
 
-        int twoD[][] = new int[4][5];
+        int twoD[][] = new int[4][];
+
+        int k = 0;
 
         for (int i = 0; i < 4; i++)
         {
-            for (int j = 0; j < 5; j++)
+            twoD[i] = new int [i + 1];
+
+            for (int j = 0; j < i + 1; j++)
             {
-                twoD[i][j] = i * 10 + j;
+                twoD[i][j] = k++;
 
                 System.out.print(" " + twoD[i][j]);
             }
